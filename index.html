@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #heading{
+            background-color: brown;
+            text-align: center;
+            color: black;
+        }
+        #b1{
+            width: 75px;
+        
+            background-color: green;
+            text-align: center;
+            color: white;
+            border: 30px;
+            padding: 7px;
+        }
+        #b2{
+             width: 75px;
+            text-align: center;
+            background-color: green;
+            color: white;
+            border: 30px;
+            padding: 7px;
+
+        }
+
+    
+
+        
+    </style>
+</head>
+<body>
+    <h1 id= "heading"> Is javascript is easy guys ?</h1>
+    <button  id="b1">yes</button>
+    <button id="b2">no</button>
+</body>
+<script>
+  document.getElementById("b1").onclick = function() {
+    document.getElementById("heading").innerHTML = "yes easy js";
+
+  }
+  document.getElementById("b2").onclick = function() {
+    document.getElementById("heading").innerHTML = "no js is hard";
+
+
+  }
+</script>
+</html>
